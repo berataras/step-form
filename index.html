@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Step Form - Berat Aras</title>
+</head>
+<body>
+
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+
+        </div>
+    </div>
+
+
+    <template class="finish-template">
+        <h1 class="finish-template-text">Katıldığınız için Teşekkürler!</h1>
+    </template>
+
+    <template id="slide-template">
+        <div class="swiper-slide">
+            <div class="form-container">
+                <fieldset>
+                    <legend>{title}</legend>
+                    {field}
+                </fieldset>
+                <button type="button" class="next-button">Tamam</button>
+            </div>
+        </div>
+    </template>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+<!---
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Öncelikle adını ve soyadını bizimle paylaşır mısın?</legend>
+                <label class="file-input">
+                    <input type="file" name="" required>
+                    <span class="text" data-invalid="Dosya seçmek için tıklayınız..." data-valid="Dosya başarıyla seçildi..."></span>
+                </label>
+            </fieldset>
+            <button type="button" class="next-button">Tamam</button>
+        </div>
+    </div>
+
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Öncelikle adını ve soyadını bizimle paylaşır mısın?</legend>
+                <label for="man" class="radio">
+                    <input type="radio" required name="gender" id="man">
+                    <span class="text">Erkek</span>
+                </label>
+                <label for="woman" class="radio">
+                    <input type="radio" required name="gender" id="woman">
+                    <span class="text">Kadın</span>
+                </label>
+            </fieldset>
+            <button type="button" class="next-button">Tamam</button>
+        </div>
+    </div>
+
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Öncelikle adını ve soyadını bizimle paylaşır mısın?</legend>
+                <select name="" required>
+                    <option value="">Seçiniz</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                </select>
+            </fieldset>
+            <button type="button" class="next-button">Tamam</button>
+        </div>
+    </div>
+
+    <div class="swiper-slide">
+        <div class="form-container">
+            <fieldset>
+                <legend>Öncelikle adını ve soyadını bizimle paylaşır mısın?</legend>
+                <input type="text" required placeholder="Cevabını buraya yaz...">
+            </fieldset>
+            <button type="button" class="next-button">Tamam</button>
+        </div>
+    </div>
+--->
+</body>
+</html>
